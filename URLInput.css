@@ -1,0 +1,45 @@
+.url-form {
+    display: inline-block;
+  }
+  
+  .url-input-group {
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-bottom: 10px;
+  }
+  
+  .url-input-protocol,
+  .url-input-suffix {
+    background-color: #f1f1f1;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .url-input-url {
+    flex: 1;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .url-input-group select:focus,
+  .url-input-url:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+    border-color: rgba(81, 203, 238, 1);
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .error-message {
+    color: red;
+    margin-bottom: 10px;
+  }
+  
